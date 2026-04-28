@@ -1,0 +1,9 @@
+# 数据集路径（相对路径或绝对路径均可）
+train: custom_dataset/images/train  # 训练集图像路径
+val: custom_dataset/images/val      # 验证集图像路径
+
+# 类别数
+nc: 3  # 这里以3类（apple、banana、orange）为例，根据你的类别数修改
+
+# 类别名称（顺序要与标注时的类别ID一致）
+names: ['apple', 'banana', 'orange']
