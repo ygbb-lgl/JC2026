@@ -46,4 +46,4 @@ while cap.isOpened():
 cap.release()
 # out.release()
 cv2.destroyAllWindows()
-print("视频检测完成，结果已保存为video_result.mp4")
+# print("视频检测完成，结果已保存为video_result.mp4")
