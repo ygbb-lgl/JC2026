@@ -14,8 +14,8 @@ results = model.train(
     device=0,                 # 0=GPU，-1=CPU
     patience=100,             # 早停耐心值
     save=True,                # 保存最佳模型
-    project='custom_train',   # 项目保存路径
-    name='yolov8n_custom',    # 实验名称
+    project='vegetable_train',   # 项目保存路径
+    name='yolov8n_vegetable',    # 实验名称
     pretrained=True,          # 迁移学习，加速收敛
     cache=True,               # 缓存数据
     augment=True,             # 开启数据增强（提升模型泛化能力，避免过拟合）
